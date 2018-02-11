@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="test1(failed)">
+    <groups>
+      <run>
+        <include name="web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="privatTests.PrivatTests">
+        <methods>
+          <include name="second"/>
+        </methods>
+      </class> <!-- privatTests.PrivatTests -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
